@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ranking | Kassahun Ayalew</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563eb; --text-dark: #1f2937; --text-light: #6b7280; --bg-light: #f9fafb; --white: #ffffff; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--text-dark); background: var(--bg-light); margin: 0; }
+        
+        nav { background: var(--white); padding: 1rem 10%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); position: sticky; top: 0; }
+        .logo { font-weight: 700; font-size: 1.2rem; color: var(--primary); text-decoration: none; }
+        nav div a { text-decoration: none; color: var(--text-dark); margin-left: 20px; font-weight: 500; transition: color 0.3s; }
+        
+        .header-section { text-align: center; padding: 60px 20px; background: var(--text-dark); color: var(--white); }
+        .header-section h1 { margin: 0 0 10px 0; font-size: 2.5rem; color: var(--white); }
+        .header-section h2 { margin: 0; font-weight: 400; color: #9ca3af; }
+
+        .container { max-width: 700px; margin: 40px auto; padding: 0 20px; }
+        
+        .movie-card { background: var(--white); border-radius: 8px; padding: 25px; margin-bottom: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-left: 5px solid var(--primary); }
+        .movie-card h3 { margin-top: 0; color: var(--primary); font-size: 1.5rem; display: flex; align-items: center; gap: 10px; }
+        .movie-card p { color: var(--text-light); margin-bottom: 0; }
+        
+        q { font-style: italic; font-weight: 600; color: var(--text-dark); }
+        
+        footer { text-align: center; padding: 40px; background: #f3f4f6; color: var(--text-light); font-size: 0.8rem; margin-top: 40px;}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">Kassahun.</a>
+        <div>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="header-section">
+        <h1>The Best Movies According to Kassahun</h1>
+        <h2>My Top 3 Movies of All-Time</h2>
+    </div>
+
+    <div class="container">
+        
+        <div class="movie-card">
+            <h3>🎬 Focus</h3>
+            <p>This movie is one of the best movies I have ever watched.</p>
+        </div>
+
+        <div class="movie-card">
+            <h3>🎬 The Pursuit of Happyness</h3>
+            <p>I didn't remember at first, that is the reason I'm placing it on the second. It's an 11/10 movie. Still the same actor, <b>Will Smith</b>.</p>
+        </div>
+
+        <div class="movie-card">
+            <h3>🎬 Forrest Gump</h3>
+            <p>This movie teaches me that <q>I have to try almost everything in my life</q>. Even if I succeed in one, I have to try another and be successful in it.</p>
+        </div>
+
+    </div>
+
+    <footer>&copy; 2026 Kassahun Ayalew | Built with clean HTML & CSS.</footer>
+</body>
+</html>

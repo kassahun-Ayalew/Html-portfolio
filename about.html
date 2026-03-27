@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Kassahun Ayalew</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Shared Theme Styles */
+        :root { --primary: #2563eb; --text-dark: #1f2937; --text-light: #6b7280; --bg-light: #f9fafb; --white: #ffffff; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.8; color: var(--text-dark); background: var(--bg-light); margin: 0; }
+        
+        /* Navigation */
+        nav { background: var(--white); padding: 1rem 10%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); position: sticky; top: 0; }
+        .logo { font-weight: 700; font-size: 1.2rem; color: var(--primary); text-decoration: none; }
+        nav div a { text-decoration: none; color: var(--text-dark); margin-left: 20px; font-weight: 500; transition: color 0.3s; }
+        nav div a:hover { color: var(--primary); }
+
+        /* Page Specific Styles */
+        .container { max-width: 800px; margin: 60px auto; padding: 40px; background: var(--white); border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { color: var(--primary); font-size: 2.5rem; margin-top: 0; margin-bottom: 20px; text-align: center; }
+        .highlight { font-weight: 600; color: var(--text-dark); }
+        .vision-box { border-left: 4px solid var(--primary); padding-left: 20px; margin: 30px 0; font-style: italic; color: var(--text-light); }
+        
+        footer { text-align: center; padding: 40px; background: #f3f4f6; color: var(--text-light); font-size: 0.8rem; margin-top: 40px;}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">Kassahun.</a>
+        <div>
+            <a href="about.html" style="color: var(--primary);">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>About Me</h1>
+        <p>I’m <span class="highlight">Kassahun Ayalew</span>, a Computer Science student driven by a vision to build impactful technology that shapes the future. I don’t just learn code I use it to solve real problems, create smart solutions, and turn ideas into reality.</p>
+        
+        <div class="vision-box">
+            My interests lie in AI, robotics, and innovative software development, where I constantly challenge myself to grow beyond limits.
+        </div>
+
+        <p>I believe success comes from consistency, bold thinking, and execution. My goal is not just to be a developer, but to become a global tech entrepreneur creating solutions that make a difference in people’s lives.</p>
+    </div>
+
+    <footer>&copy; 2026 Kassahun Ayalew | Built with clean HTML & CSS.</footer>
+</body>
+</html>

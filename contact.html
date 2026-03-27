@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kassahun Ayalew</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563eb; --text-dark: #1f2937; --text-light: #6b7280; --bg-light: #f9fafb; --white: #ffffff; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--text-dark); background: var(--bg-light); margin: 0; }
+        
+        nav { background: var(--white); padding: 1rem 10%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); position: sticky; top: 0; }
+        .logo { font-weight: 700; font-size: 1.2rem; color: var(--primary); text-decoration: none; }
+        nav div a { text-decoration: none; color: var(--text-dark); margin-left: 20px; font-weight: 500; transition: color 0.3s; }
+        nav div a:hover { color: var(--primary); }
+
+        .container { max-width: 600px; margin: 80px auto; padding: 40px; background: var(--white); border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; }
+        h1 { color: var(--primary); margin-top: 0; }
+        .intro { color: var(--text-light); margin-bottom: 30px; font-size: 1.1rem; }
+        
+        .contact-list { list-style: none; padding: 0; margin: 0; text-align: left; display: inline-block; }
+        .contact-list li { margin-bottom: 15px; font-size: 1.1rem; border-bottom: 1px solid #eee; padding-bottom: 10px;}
+        .contact-list li:last-child { border-bottom: none; }
+        .contact-list a { color: var(--primary); text-decoration: none; font-weight: 600; }
+        .contact-list a:hover { text-decoration: underline; }
+
+        footer { text-align: center; padding: 40px; background: #f3f4f6; color: var(--text-light); font-size: 0.8rem; margin-top: 40px;}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">Kassahun.</a>
+        <div>
+            <a href="about.html">About</a>
+            <a href="contact.html" style="color: var(--primary);">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Let's Connect</h1>
+        <p class="intro">I’m always open to new opportunities, collaborations, and building something impactful.</p>
+        
+        <ul class="contact-list">
+            <li><b>📧 Email:</b> <a href="mailto:kassahunayalew@gmail.com">kassahunayalew@gmail.com</a></li>
+            <li><b>📱 Phone:</b> <a href="tel:+251983544192">+251 983544192</a></li>
+            <li><b>📍 Location:</b> Addis Ababa, Ethiopia</li>
+            <li><b>💼 LinkedIn:</b> <a href="#">Kassahun_Ayalew</a></li>
+            <li><b>💻 GitHub:</b> <a href="#">@kassahun_7</a></li>
+        </ul>
+    </div>
+
+    <footer>&copy; 2026 Kassahun Ayalew | Built with clean HTML & CSS.</footer>
+</body>
+</html>
